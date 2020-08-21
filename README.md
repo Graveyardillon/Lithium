@@ -1,2 +1,2 @@
 # Lithium
-Example ffcli client.
+ffmpeg usage example of Rust
