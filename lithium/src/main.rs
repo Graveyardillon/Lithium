@@ -14,13 +14,4 @@ fn main() {
         .expect("failed to run ffmpeg");
 
     println!("output: {}", String::from_utf8_lossy(&output.stdout));
-
-    // let cmd = format!("ls");
-
-    // let output = Command::new(cmd)
-    //     .current_dir("./assets")
-    //     .output()
-    //     .expect("failed to run ls");
-
-    // println!("{}", String::from_utf8_lossy(&output.stdout));
 }
